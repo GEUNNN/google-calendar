@@ -1,0 +1,62 @@
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  width: 100%;
+  height: 5vw;
+  border-bottom: 0.1vw solid lightgray;
+  padding: 0.5rem 0;
+
+  .title-wrap {
+    display: flex;
+    flex-direction: row;
+
+    .menu-icon {
+      width: 2vw;
+      height: 2vw;
+      margin: 1vw 1.5vw 0 3vw;
+    }
+
+    .calendar-image {
+      width: 5vw;
+      height: 5vw;
+      margin: -3px 10px 0 0;
+    }
+
+    .calendar-text {
+      display: flex;
+      align-self: center;
+      font-size: x-large;
+      color: #5f6368;
+    }
+  }
+
+  .date-wrap {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10vw;
+
+    .today-btn {
+      height: 4vw;
+      margin-right: 10vw;
+      border: 1px solid lightgray;
+      border-radius: 1vw;
+      padding: 1.2vw;
+    }
+
+    .year-month-text {
+      display: flex;
+      align-self: center;
+      font-size: large;
+      margin-top: -1vw;
+      margin-right: 3vw;
+    }
+  }
+
+  .arrow-icon {
+    width: 2vw;
+    height: 2vw;
+    margin: 1vw 3vw;
+  }
+  //   className="w-4 r-4 mr-4"
+}

@@ -1,0 +1,41 @@
+.App {
+  border: border-box;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "Noto Sans";
+}
+
+.main-container {
+  display: flex;
+  margin-top: 2vw;
+
+  .day-picker-wrap {
+    display: flex;
+    flex-direction: column;
+
+    .schedule-add-btn {
+      width: 13vw;
+      height: 5vw;
+      font-size: 1rem;
+      background-color: white;
+      border: 1px solid lightgray;
+      text-decoration: none;
+      border-radius: 3vw;
+      box-shadow: 2px 2px 5px rgb(194, 194, 194);
+      margin-left: 2vw;
+    }
+  }
+
+  .stored-date {
+    display: flex;
+    flex-direction: row;
+
+    .calendar-days {
+      height: 6vw;
+      width: 6vw;
+      margin: 0 2vw;
+      font-size: 1.6rem;
+    }
+  }
+}
